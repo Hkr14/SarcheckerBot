@@ -62,7 +62,7 @@ async def tv(message: types.Message):
     }
     
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4571.0 Safari/537.36 Edg/93.0.957.0",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; LM-K200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Content-Type": "application/x-www-form-urlencoded"
     }
@@ -137,7 +137,7 @@ async def ch(message: types.Message):
             )
     # get guid muid sid
     headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4571.0 Safari/537.36 Edg/93.0.957.0",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 10; LM-K200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Content-Type": "application/x-www-form-urlencoded"
     }
@@ -159,7 +159,7 @@ async def ch(message: types.Message):
     }
     
     head = {
-      "User-Agent": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36",
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; LM-K200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36",
       "Content-Type": "application/x-www-form-urlencoded",
       "Accept": "*/*",
       "Origin": "https://adblockplus.org",
@@ -196,7 +196,7 @@ async def ch(message: types.Message):
     }
     
     header = {
-      "User-Agent": "Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Mobile Safari/537.36",
+      "User-Agent": "Mozilla/5.0 (Linux; Android 10; LM-K200) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36",
       "Content-Type": "application/x-www-form-urlencoded",
       "Accept": "application/json",
       "Origin": "https://js.stripe.com",
